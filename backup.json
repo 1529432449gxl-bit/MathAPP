@@ -1,0 +1,103 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$nqGR7Wzc9GkgNqNfQvltyY$Wx7Hd7RF0vU7l5lsUuNxom7JGUz5cG3Nqe1Exd1JQ+w=",
+    "last_login": "2026-07-07T06:31:58.243Z",
+    "is_superuser": true,
+    "username": "001gxl",
+    "first_name": "001gxl",
+    "last_name": "",
+    "email": "1529432449@qq.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-07T03:55:02.610Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$FCormLBcdEs8DSpkqNhJZJ$C8COnL3beXDyhWk4ZgtVpJHlbh4Xmye4vvIXa35pDv0=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "002zj",
+    "first_name": "002zj",
+    "last_name": "",
+    "email": "bambooshoot138@outlook.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-07T03:56:40.261Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$crMYs69UBaKNgLHnXDryqQ$qF3gpyYwKeBWmGl64qmZvGZWIRCbD8zajzu/LjeQAlk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "003gxl",
+    "first_name": "003gxl",
+    "last_name": "",
+    "email": "2517828817@qq.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-07T05:59:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "245c2f4cc43db4c83d11f1d12bb92102ec6dd258",
+  "fields": {
+    "user": 1,
+    "created": "2026-07-08T08:57:06.786Z"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "nickname": "001gxl",
+    "organization": "HITSZ",
+    "is_member": false,
+    "membership_days_remaining": 0,
+    "created_at": "2026-07-07T05:43:45.028Z",
+    "updated_at": "2026-07-09T02:19:49.825Z"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "nickname": "002zj",
+    "organization": "",
+    "is_member": false,
+    "membership_days_remaining": 0,
+    "created_at": "2026-07-07T05:43:45.036Z",
+    "updated_at": "2026-07-07T05:43:45.036Z"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 6,
+  "fields": {
+    "user": 5,
+    "nickname": "003gxl",
+    "organization": "HITSZ",
+    "is_member": true,
+    "membership_days_remaining": 7,
+    "created_at": "2026-07-07T06:24:31.659Z",
+    "updated_at": "2026-07-07T06:33:24.060Z"
+  }
+}
+]
